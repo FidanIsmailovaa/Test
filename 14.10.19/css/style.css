@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.top-header{
+    position: absolute;
+    z-index: 1000;
+    height: 35px;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+hr{
+    position: absolute;
+    top: 37px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+header{
+    position: fixed;
+    top: 40px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+header ul li{
+    padding: 30px;
+    border: 2px solid transparent;
+    
+}
+header ul li:hover{
+    border-top:2px solid orange
+}
+.active{
+    border-top:2px solid orange
+}
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.icon{
+    color: #fff;
+    display: none;
+}
+
+/*Home Start*/
+.main{
+    background-image: url(../images/slide_1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    top: 0;
+}
+.bg-color{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/pattarn.png);
+    background-repeat: repeat;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.bg-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.387);
+}
+.figure{
+    background-image: url(../images/tri-promo-bottom-white.png);
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    background-repeat-x:repeat;
+    background-repeat-y:no-repeat;
+    transform: rotate(180deg);
+    bottom: 0;
+    
+
+}
+.figure{
+    background-image:fullscreen;
+    width: 100%;
+}
+.wrapper{
+    width: 80%;
+    margin: auto;
+}
+.story-m{
+    font-size: 50px;
+    color:gray;
+    float: left;
+    line-height: 53px;
+
+}
+.story-all{
+    float: left;
+    line-height: 28px;
+    margin-top: 40px;
+}
+
+@media (max-width:600px){
+    /* .menu{
+        display: none;
+    }
+    .icon{
+        display: inline-block;
+    } */
+}
+@media (max-width:768px){
+    /* .menu{
+        display: none;
+    }
+    .icon{
+        display: inline-block;
+    } */
+}
+@media (max-width:998px){
+    .menu{
+        display: none;
+    }
+    .icon{
+        display: block;
+    }
+}
+@media (max-width:1200px){
+    /* .icon{
+        display: none;
+    }
+    .menu{
+        display: block;
+    } */
+}
